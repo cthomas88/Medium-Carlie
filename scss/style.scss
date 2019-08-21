@@ -58,3 +58,12 @@ $secondary: #81604E;
     background: url('../img/carousel3.jpg');
     background-position: 0px -190px;
 }
+
+#main-footer {
+    
+    color: $secondary;
+
+    a {
+        color: $secondary;
+    }
+}

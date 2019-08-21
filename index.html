@@ -105,8 +105,40 @@
         </div>
     </section>
 
-
-
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Contact Carlie</h3>
+                    <p><a href="mailto:info@mediumcarlie.co.uk">info@mediumcarlie.co.uk</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>
+                        Copyright &copy;
+                        <span id="year"></span>
+                        Carlie's Angels
+                    </h5>
+                    <p>
+                        <a href="https://www.twitter.com/carliesangels"><i class="fab fa-twitter-square fa-2x"></i></a> 
+                        &ensp;
+                        <a href="https://www.facebook.com/carliesangels2"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="index.html">home</a><br>
+                    <a href="about.html">about</a><br>
+                    <a href="services.html">services</a><br>
+                    <a href="contact.html">contact</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h6>Website Designed By <a href="https://www.pythonpro.co.uk">Python Pro</a></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -114,5 +146,15 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        // GET CURRENT YEAR FOR COPYRIGHT
+        $('#year').text(new Date().getFullYear());
+
+        // CONFIGURE SLIDER
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: 'hover'
+        })
+    </script>
 </body>
 </html>

@@ -38,3 +38,8 @@
 .carousel-image-3 {
   background: url("../img/carousel3.jpg");
   background-position: 0px -190px; }
+
+#main-footer {
+  color: #81604E; }
+  #main-footer a {
+    color: #81604E; }
