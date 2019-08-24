@@ -1,5 +1,5 @@
-$primary: #E0C6B8;
-$secondary: #81604E;
+$primary: #52968a;
+$secondary: white;
 
 
 .mb-resp {
@@ -57,6 +57,16 @@ $secondary: #81604E;
 .carousel-image-3 {
     background: url('../img/carousel3.jpg');
     background-position: 0px -190px;
+}
+
+#home-heading {
+    background: url('/img/bedfordshire-medium.jpg');
+    position: relative;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: 0 -1000px;
 }
 
 #main-footer {
