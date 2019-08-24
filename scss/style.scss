@@ -7,6 +7,9 @@ $secondary: white;
 }
 
 .navbar {
+
+    font-family: 'Raleway', sans-serif;
+
     .nav-item.active {
         border-left: $secondary 3px solid;
     }
@@ -29,6 +32,15 @@ $secondary: white;
 }
 
 #showcase {
+    
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+    
     a {
         margin-bottom: 60px;
         margin-top: 20px;
@@ -36,6 +48,7 @@ $secondary: white;
 
     .btn {
         color: $secondary;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -67,13 +80,47 @@ $secondary: white;
     background-repeat: no-repeat;
     color: white;
     background-position: 0 -1000px;
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#home-icons {
+    h3 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
 }
 
 #main-footer {
     
     color: $secondary;
 
+    h3 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h5 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    h6 {
+        font-family: 'Yeseva One', cursive;
+    }
+
     a {
         color: $secondary;
+        font-family: 'Raleway', sans-serif;
     }
 }

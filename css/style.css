@@ -1,13 +1,15 @@
 .mb-resp {
   margin-bottom: 10px; }
 
-.navbar .nav-item.active {
-  border-left: white 3px solid; }
-.navbar .nav-link {
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important; }
+.navbar {
+  font-family: 'Raleway', sans-serif; }
+  .navbar .nav-item.active {
+    border-left: white 3px solid; }
+  .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; }
 
 .dark-overlay {
   position: absolute;
@@ -17,11 +19,16 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.7); }
 
+#showcase h1 {
+  font-family: 'Yeseva One', cursive; }
+#showcase p {
+  font-family: 'Raleway', sans-serif; }
 #showcase a {
   margin-bottom: 60px;
   margin-top: 20px; }
 #showcase .btn {
-  color: white; }
+  color: white;
+  font-family: 'Raleway', sans-serif; }
 
 .carousel-item {
   height: 450px;
@@ -47,8 +54,26 @@
   background-repeat: no-repeat;
   color: white;
   background-position: 0 -1000px; }
+  #home-heading h1 {
+    font-family: 'Yeseva One', cursive; }
+  #home-heading p {
+    font-family: 'Raleway', sans-serif; }
+
+#home-icons h3 {
+  font-family: 'Yeseva One', cursive; }
+#home-icons p {
+  font-family: 'Raleway', sans-serif; }
 
 #main-footer {
   color: white; }
+  #main-footer h3 {
+    font-family: 'Yeseva One', cursive; }
+  #main-footer p {
+    font-family: 'Raleway', sans-serif; }
+  #main-footer h5 {
+    font-family: 'Yeseva One', cursive; }
+  #main-footer h6 {
+    font-family: 'Yeseva One', cursive; }
   #main-footer a {
-    color: white; }
+    color: white;
+    font-family: 'Raleway', sans-serif; }
