@@ -121,6 +121,24 @@ body {
     }
 }
 
+#about-page-header {
+    background: url('/unpublished/img/tarot_reader_bedfordshire.jpg');
+    min-height: 250px;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: -970px -500px;
+    position: relative;
+
+    h1 {
+        padding-top: 90px;
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 #main-footer {
     
     color: $secondary;
