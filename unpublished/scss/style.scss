@@ -72,6 +72,16 @@ $secondary: white;
     background-position: 0px -190px;
 }
 
+#home-icons {
+    h3 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 #home-heading {
     background: url('/unpublished/img/bedfordshire-medium.jpg');
     position: relative;
@@ -82,16 +92,6 @@ $secondary: white;
     background-position: 0px -1200px;
 
     h1 {
-        font-family: 'Yeseva One', cursive;
-    }
-
-    p {
-        font-family: 'Raleway', sans-serif;
-    }
-}
-
-#home-icons {
-    h3 {
         font-family: 'Yeseva One', cursive;
     }
 

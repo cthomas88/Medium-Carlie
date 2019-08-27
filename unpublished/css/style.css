@@ -46,6 +46,11 @@
   background: url("/unpublished/img/carousel3.jpg");
   background-position: 0px -190px; }
 
+#home-icons h3 {
+  font-family: 'Yeseva One', cursive; }
+#home-icons p {
+  font-family: 'Raleway', sans-serif; }
+
 #home-heading {
   background: url("/unpublished/img/bedfordshire-medium.jpg");
   position: relative;
@@ -58,11 +63,6 @@
     font-family: 'Yeseva One', cursive; }
   #home-heading p {
     font-family: 'Raleway', sans-serif; }
-
-#home-icons h3 {
-  font-family: 'Yeseva One', cursive; }
-#home-icons p {
-  font-family: 'Raleway', sans-serif; }
 
 #main-footer {
   color: white; }
