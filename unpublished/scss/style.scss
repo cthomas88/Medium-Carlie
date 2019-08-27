@@ -103,6 +103,20 @@ body {
     }
 }
 
+#newsletter {
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    form {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 #home-heading-two {
     background: url('/unpublished/img/bedfordshire-medium.jpg');
     position: relative;
@@ -172,6 +186,25 @@ body {
 
     p {
         font-family: 'Raleway', sans-serif;
+    }
+}
+
+#contact {
+    h4, h3 {
+        font-family: 'Yeseva One', cursive;
+        color: $primary;
+    }
+
+    p, form {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: $primary;
     }
 }
 
