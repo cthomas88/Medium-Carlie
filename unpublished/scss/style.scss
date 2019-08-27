@@ -1,6 +1,9 @@
 $primary: #52968a;
 $secondary: white;
 
+body {
+    overflow-x: hidden;
+}
 
 .mb-resp {
     margin-bottom: 10px;
@@ -90,6 +93,24 @@ $secondary: white;
     background-repeat: no-repeat;
     color: white;
     background-position: 0px -1200px;
+
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#home-heading-two {
+    background: url('/unpublished/img/bedfordshire-medium.jpg');
+    position: relative;
+    min-height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: 0px -1600px;
 
     h1 {
         font-family: 'Yeseva One', cursive;
