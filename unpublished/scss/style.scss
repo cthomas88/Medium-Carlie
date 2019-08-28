@@ -168,6 +168,34 @@ body {
     margin-top: -50px;
 }
 
+#icon-boxes {
+    img {
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#testimonials {
+    h2 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    footer {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 #services-page-header {
     background: url('/unpublished/img/tarot_reader_bedfordshire.jpg');
     min-height: 250px;
@@ -182,6 +210,27 @@ body {
     }
 
     p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#services {
+    h3 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+.modal {
+
+    h5 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p, button {
         font-family: 'Raleway', sans-serif;
     }
 }
@@ -223,6 +272,26 @@ body {
     }
 }
 
+#thankyoucontact {
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#thankyounewsletter {
+    h1 {
+        font-family: 'Yeseva One', cursive;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 #main-footer {
     
     color: $secondary;
@@ -246,5 +315,9 @@ body {
     a {
         color: $secondary;
         font-family: 'Raleway', sans-serif;
+    }
+
+    a:hover {
+        color: $tertiary;
     }
 }

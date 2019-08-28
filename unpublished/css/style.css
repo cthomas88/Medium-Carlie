@@ -108,6 +108,20 @@ body {
 .about-img {
   margin-top: -50px; }
 
+#icon-boxes img {
+  color: white; }
+#icon-boxes h3 {
+  font-family: 'Yeseva One', cursive; }
+#icon-boxes p {
+  font-family: 'Raleway', sans-serif; }
+
+#testimonials h2 {
+  font-family: 'Yeseva One', cursive; }
+#testimonials p {
+  font-family: 'Raleway', sans-serif; }
+#testimonials footer {
+  font-family: 'Raleway', sans-serif; }
+
 #services-page-header {
   background: url("/unpublished/img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
@@ -120,6 +134,16 @@ body {
     font-family: 'Yeseva One', cursive; }
   #services-page-header p {
     font-family: 'Raleway', sans-serif; }
+
+#services h3 {
+  font-family: 'Yeseva One', cursive; }
+#services p {
+  font-family: 'Raleway', sans-serif; }
+
+.modal h5 {
+  font-family: 'Yeseva One', cursive; }
+.modal p, .modal button {
+  font-family: 'Raleway', sans-serif; }
 
 #contact-page-header {
   background: url("/unpublished/img/tarot_reader_bedfordshire.jpg");
@@ -144,6 +168,16 @@ body {
 #contact a:hover {
   color: #52968a; }
 
+#thankyoucontact h1 {
+  font-family: 'Yeseva One', cursive; }
+#thankyoucontact p {
+  font-family: 'Raleway', sans-serif; }
+
+#thankyounewsletter h1 {
+  font-family: 'Yeseva One', cursive; }
+#thankyounewsletter p {
+  font-family: 'Raleway', sans-serif; }
+
 #main-footer {
   color: white; }
   #main-footer h3 {
@@ -157,5 +191,7 @@ body {
   #main-footer a {
     color: white;
     font-family: 'Raleway', sans-serif; }
+  #main-footer a:hover {
+    color: #DBE5E5; }
 
 /*# sourceMappingURL=style.css.map */
