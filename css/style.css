@@ -1,5 +1,6 @@
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 100%; }
 
 .mb-resp {
   margin-bottom: 10px; }
@@ -22,31 +23,33 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.7); }
 
-#showcase h1 {
-  font-family: 'Yeseva One', cursive; }
-#showcase p {
-  font-family: 'Raleway', sans-serif; }
-#showcase a {
-  margin-bottom: 60px;
-  margin-top: 20px; }
-#showcase .btn {
-  color: white;
-  font-family: 'Raleway', sans-serif; }
+#showcase {
+  max-width: 100%; }
+  #showcase h1 {
+    font-family: 'Yeseva One', cursive; }
+  #showcase p {
+    font-family: 'Raleway', sans-serif; }
+  #showcase a {
+    margin-bottom: 60px;
+    margin-top: 20px; }
+  #showcase .btn {
+    color: white;
+    font-family: 'Raleway', sans-serif; }
 
 .carousel-item {
   height: 450px;
   background-size: cover; }
 
 .carousel-image-1 {
-  background: url("/img/carousel1.jpg");
+  background: url("../img/carousel1.jpg");
   background-position: -300px; }
 
 .carousel-image-2 {
-  background: url("/img/carousel2.jpg");
+  background: url("../img/carousel2.jpg");
   background-position: -250px 0px; }
 
 .carousel-image-3 {
-  background: url("/img/carousel3.jpg");
+  background: url("../img/carousel3.jpg");
   background-position: 0px -190px; }
 
 #home-icons h3 {
@@ -55,7 +58,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #home-heading {
-  background: url("/img/bedfordshire-medium.jpg");
+  background: url("../img/bedfordshire-medium.jpg");
   position: relative;
   min-height: 250px;
   background-attachment: fixed;
@@ -75,7 +78,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #home-heading-two {
-  background: url("/img/bedfordshire-medium.jpg");
+  background: url("../img/bedfordshire-medium.jpg");
   position: relative;
   min-height: 250px;
   background-attachment: fixed;
@@ -88,7 +91,7 @@ body {
     font-family: 'Raleway', sans-serif; }
 
 #about-page-header {
-  background: url("/img/tarot_reader_bedfordshire.jpg");
+  background: url("../img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -108,6 +111,9 @@ body {
 .about-img {
   margin-top: -50px; }
 
+.about-img-2 {
+  display: none; }
+
 #icon-boxes img {
   color: white; }
 #icon-boxes h3 {
@@ -123,7 +129,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #services-page-header {
-  background: url("/img/tarot_reader_bedfordshire.jpg");
+  background: url("../img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -146,7 +152,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #contact-page-header {
-  background: url("/img/tarot_reader_bedfordshire.jpg");
+  background: url("../img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -194,7 +200,53 @@ body {
   #main-footer a:hover {
     color: #DBE5E5; }
 
+@media (max-width: 576px) {
+  body {
+    max-width: 100%; }
+
+  #showcase {
+    max-width: 100%; }
+    #showcase h1 {
+      font-size: 1.5rem;
+      text-align: center; }
+    #showcase .carousel-image-1 {
+      background: url("../img/carousel1_small.jpg");
+      background-position: -500px; }
+    #showcase .carousel-image-2 {
+      background: url("../img/carousel2_small.jpg");
+      background-position: -500px; }
+    #showcase .carousel-image-3 {
+      background: url("../img/carousel3_small.jpg");
+      background-position: -500px 0px; }
+
+  #contact iframe {
+    width: 100%; }
+
+  .about-img-2 {
+    display: block;
+    width: 100px; } }
 @media (max-width: 767.98px) {
+  body {
+    max-width: 300%; }
+
+  #showcase {
+    max-width: 100%; }
+    #showcase h1 {
+      font-size: 1.5rem;
+      text-align: center; }
+
+  .carousel-image-1 {
+    background: url("../img/carousel1_small.jpg");
+    background-position: -500px; }
+
+  .carousel-image-2 {
+    background: url("../img/carousel2_small.jpg");
+    background-position: -500px; }
+
+  .carousel-image-3 {
+    background: url("../img/carousel3_small.jpg");
+    background-position: -500px 0px; }
+
   #home-heading {
     min-height: 350px;
     padding-top: 10px; }
@@ -204,4 +256,13 @@ body {
     padding-top: 10px; }
 
   #about-page-header h1 {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  .about-img-2 {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px; }
+
+  #contact iframe {
+    width: 100%; } }

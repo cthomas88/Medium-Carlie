@@ -4,6 +4,7 @@ $tertiary: #DBE5E5;
 
 body {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 .mb-resp {
@@ -54,6 +55,8 @@ body {
         color: $secondary;
         font-family: 'Raleway', sans-serif;
     }
+
+    max-width: 100%;
 }
 
 .carousel-item {
@@ -62,17 +65,17 @@ body {
 }
 
 .carousel-image-1 {
-    background: url('/img/carousel1.jpg');
+    background: url('../img/carousel1.jpg');
     background-position: -300px;
 }
 
 .carousel-image-2 {
-    background: url('/img/carousel2.jpg');
+    background: url('../img/carousel2.jpg');
     background-position: -250px 0px;
 }
 
 .carousel-image-3 {
-    background: url('/img/carousel3.jpg');
+    background: url('../img/carousel3.jpg');
     background-position: 0px -190px;
 }
 
@@ -87,7 +90,7 @@ body {
 }
 
 #home-heading {
-    background: url('/img/bedfordshire-medium.jpg');
+    background: url('../img/bedfordshire-medium.jpg');
     position: relative;
     min-height: 250px;
     background-attachment: fixed;
@@ -119,7 +122,7 @@ body {
 }
 
 #home-heading-two {
-    background: url('/img/bedfordshire-medium.jpg');
+    background: url('../img/bedfordshire-medium.jpg');
     position: relative;
     min-height: 250px;
     background-attachment: fixed;
@@ -137,7 +140,7 @@ body {
 }
 
 #about-page-header {
-    background: url('/img/tarot_reader_bedfordshire.jpg');
+    background: url('../img/tarot_reader_bedfordshire.jpg');
     min-height: 250px;
     background-repeat: no-repeat;
     color: white;
@@ -166,6 +169,10 @@ body {
 
 .about-img {
     margin-top: -50px;
+}
+
+.about-img-2 {
+    display: none;
 }
 
 #icon-boxes {
@@ -197,7 +204,7 @@ body {
 }
 
 #services-page-header {
-    background: url('/img/tarot_reader_bedfordshire.jpg');
+    background: url('../img/tarot_reader_bedfordshire.jpg');
     min-height: 250px;
     background-repeat: no-repeat;
     color: white;
@@ -236,7 +243,7 @@ body {
 }
 
 #contact-page-header {
-    background: url('/img/tarot_reader_bedfordshire.jpg');
+    background: url('../img/tarot_reader_bedfordshire.jpg');
     min-height: 250px;
     background-repeat: no-repeat;
     color: white;
@@ -322,7 +329,79 @@ body {
     }
 }
 
+@media (max-width: 576px) {
+    body {
+        max-width: 100%;
+    }
+
+    #showcase {
+
+        max-width: 100%;
+
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .carousel-image-1 {
+            background: url('../img/carousel1_small.jpg');
+            background-position: -500px;
+        }
+
+
+        .carousel-image-2 {
+            background: url('../img/carousel2_small.jpg');
+            background-position: -500px;
+        }
+
+        .carousel-image-3 {
+            background: url('../img/carousel3_small.jpg');
+            background-position: -500px 0px;
+        }
+    }
+
+    #contact {
+        iframe {
+            width: 100%;
+        }
+    }
+
+    .about-img-2 {
+        display: block;
+        width: 100px;
+    }
+}
+
 @media (max-width: 767.98px) {
+
+    body {
+        max-width: 300%;
+    }
+
+    #showcase {
+
+        max-width: 100%;
+
+        h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    .carousel-image-1 {
+        background: url('../img/carousel1_small.jpg');
+        background-position: -500px;
+    }
+
+    .carousel-image-2 {
+        background: url('../img/carousel2_small.jpg');
+        background-position: -500px;
+    }
+
+    .carousel-image-3 {
+        background: url('../img/carousel3_small.jpg');
+        background-position: -500px 0px;
+    }
     
     #home-heading {
         min-height: 350px;
@@ -335,7 +414,25 @@ body {
     }
 
     #about-page-header {
-        h1 { padding-top: 50px;
+
+        h1 { 
+            padding-top: 50px;
         }
     } 
+
+    .about-img-2 {
+        display: block;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #contact {
+
+        iframe {
+            width: 100%;
+        }
+    }
+
+
 }
