@@ -41,15 +41,15 @@ body {
   background-size: cover; }
 
 .carousel-image-1 {
-  background: url("../img/carousel1.jpg");
+  background: url("/img/carousel1.jpg");
   background-position: -300px; }
 
 .carousel-image-2 {
-  background: url("../img/carousel2.jpg");
+  background: url("/img/carousel2.jpg");
   background-position: -250px 0px; }
 
 .carousel-image-3 {
-  background: url("../img/carousel3.jpg");
+  background: url("/img/carousel3.jpg");
   background-position: 0px -190px; }
 
 #home-icons h3 {
@@ -58,13 +58,14 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #home-heading {
-  background: url("../img/bedfordshire-medium.jpg");
+  background: url("/img/bedfordshire-medium.jpg");
   position: relative;
   min-height: 250px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
-  background-position: 0px -1200px; }
+  background-position: 0px -1200px;
+  overflow-x: hidden; }
   #home-heading h1 {
     font-family: 'Yeseva One', cursive; }
   #home-heading p {
@@ -78,7 +79,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #home-heading-two {
-  background: url("../img/bedfordshire-medium.jpg");
+  background: url("/img/bedfordshire-medium.jpg");
   position: relative;
   min-height: 250px;
   background-attachment: fixed;
@@ -91,7 +92,7 @@ body {
     font-family: 'Raleway', sans-serif; }
 
 #about-page-header {
-  background: url("../img/tarot_reader_bedfordshire.jpg");
+  background: url("/img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -129,7 +130,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #services-page-header {
-  background: url("../img/tarot_reader_bedfordshire.jpg");
+  background: url("/img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -152,7 +153,7 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 #contact-page-header {
-  background: url("../img/tarot_reader_bedfordshire.jpg");
+  background: url("/img/tarot_reader_bedfordshire.jpg");
   min-height: 250px;
   background-repeat: no-repeat;
   color: white;
@@ -210,13 +211,13 @@ body {
       font-size: 1.5rem;
       text-align: center; }
     #showcase .carousel-image-1 {
-      background: url("../img/carousel1_small.jpg");
+      background: url("/img/carousel1_small.jpg");
       background-position: -500px; }
     #showcase .carousel-image-2 {
-      background: url("../img/carousel2_small.jpg");
+      background: url("/img/carousel2_small.jpg");
       background-position: -500px; }
     #showcase .carousel-image-3 {
-      background: url("../img/carousel3_small.jpg");
+      background: url("/img/carousel3_small.jpg");
       background-position: -500px 0px; }
 
   #contact iframe {
@@ -236,15 +237,15 @@ body {
       text-align: center; }
 
   .carousel-image-1 {
-    background: url("../img/carousel1_small.jpg");
+    background: url("/img/carousel1_small.jpg");
     background-position: -500px; }
 
   .carousel-image-2 {
-    background: url("../img/carousel2_small.jpg");
+    background: url("/img/carousel2_small.jpg");
     background-position: -500px; }
 
   .carousel-image-3 {
-    background: url("../img/carousel3_small.jpg");
+    background: url("/img/carousel3_small.jpg");
     background-position: -500px 0px; }
 
   #home-heading {
