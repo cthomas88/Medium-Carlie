@@ -343,22 +343,35 @@ body {
             font-size: 1.5rem;
             text-align: center;
         }
+    }
 
-        .carousel-image-1 {
-            background: url('/img/carousel1_small.jpg');
-            background-position: -500px;
-        }
+    .carousel-image-1 {
+        background: url('/img/carousel1_small.jpg');
+        background-position: -500px;
+    }
 
+    .carousel-image-2 {
+        background: url('/img/carousel2_small.jpg');
+        background-position: -500px;
+    }
 
-        .carousel-image-2 {
-            background: url('/img/carousel2_small.jpg');
-            background-position: -500px;
-        }
+    .carousel-image-3 {
+        background: url('/img/carousel3_small.jpg');
+        background-position: -500px 0px;
+    }
 
-        .carousel-image-3 {
-            background: url('/img/carousel3_small.jpg');
-            background-position: -500px 0px;
-        }
+    #home-heading {
+        background: url('/img/bedfordshire-medium.jpg');
+        min-height: 350px;
+        padding-top: 10px;
+        background-position: 0px -1500px;
+    }
+
+    #home-heading-two {
+        min-height: 350px;
+        padding-top: 10px;
+        background: url('/img/bedfordshire-medium.jpg');
+        background-position: 0px -1700px;
     }
 
     #contact {
@@ -405,13 +418,17 @@ body {
     }
     
     #home-heading {
-        min-height: 350px;
+        background: url('/img/bedfordshire-medium.jpg');
+        min-height: 450px;
         padding-top: 10px;
+        background-position:  0px -1500px;
     }
 
     #home-heading-two {
-        min-height: 350px;
+        min-height: 450px;
         padding-top: 10px;
+        background: url('/img/bedfordshire-medium.jpg');
+        background-position: 0px -1700px;
     }
 
     #about-page-header {
