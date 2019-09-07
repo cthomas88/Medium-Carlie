@@ -384,6 +384,23 @@ body {
         display: block;
         width: 100px;
     }
+
+    #about-page-header {
+        min-height: 400px;
+    }
+
+    #about {
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    #contact-page-header {
+        h1 {
+            padding-top: 10px;
+        }
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -449,6 +466,13 @@ body {
 
         iframe {
             width: 100%;
+        }
+    }
+
+    #about {
+
+        h1 {
+            text-align: center;
         }
     }
 
