@@ -345,6 +345,11 @@ body {
         }
     }
 
+    .carousel-item {
+        height: 450px;
+        background-size: cover;
+    }
+
     .carousel-image-1 {
         background: url('/img/carousel1_small.jpg');
         background-position: -500px;
@@ -401,7 +406,7 @@ body {
             padding-top: 10px;
         }
     }
-}
+} 
 
 @media (max-width: 767.98px) {
 
@@ -417,6 +422,11 @@ body {
             font-size: 1.5rem;
             text-align: center;
         }
+    }
+
+    .carousel-item {
+        height: 450px;
+        background-size: cover;
     }
 
     .carousel-image-1 {

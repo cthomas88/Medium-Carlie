@@ -211,6 +211,10 @@ body {
       font-size: 1.5rem;
       text-align: center; }
 
+  .carousel-item {
+    height: 450px;
+    background-size: cover; }
+
   .carousel-image-1 {
     background: url("/img/carousel1_small.jpg");
     background-position: -500px; }
@@ -240,7 +244,16 @@ body {
 
   .about-img-2 {
     display: block;
-    width: 100px; } }
+    width: 100px; }
+
+  #about-page-header {
+    min-height: 400px; }
+
+  #about h1 {
+    text-align: center; }
+
+  #contact-page-header h1 {
+    padding-top: 10px; } }
 @media (max-width: 767.98px) {
   body {
     max-width: 300%; }
@@ -250,6 +263,10 @@ body {
     #showcase h1 {
       font-size: 1.5rem;
       text-align: center; }
+
+  .carousel-item {
+    height: 450px;
+    background-size: cover; }
 
   .carousel-image-1 {
     background: url("/img/carousel1_small.jpg");
@@ -285,4 +302,7 @@ body {
     margin-bottom: 20px; }
 
   #contact iframe {
-    width: 100%; } }
+    width: 100%; }
+
+  #about h1 {
+    text-align: center; } }
