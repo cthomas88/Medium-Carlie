@@ -167,11 +167,14 @@ body {
 
 #contact h4, #contact h3 {
   font-family: 'Yeseva One', cursive;
-  color: #52968a; }
+  color: #52968a;
+  font-size: 2rem; }
 #contact p, #contact form {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem; }
 #contact a {
-  color: black; }
+  color: black;
+  text-decoration: underline; }
 #contact a:hover {
   color: #52968a; }
 
@@ -247,13 +250,13 @@ body {
     width: 100px; }
 
   #about-page-header {
-    min-height: 400px; }
+    min-height: 300px; }
 
   #about h1 {
     text-align: center; }
 
   #contact-page-header h1 {
-    padding-top: 10px; } }
+    padding-top: 60px; } }
 @media (max-width: 767.98px) {
   body {
     max-width: 300%; }
@@ -292,8 +295,10 @@ body {
     background: url("/img/bedfordshire-medium.jpg");
     background-position: 0px -1700px; }
 
-  #about-page-header h1 {
-    padding-top: 50px; }
+  #about-page-header {
+    min-height: 300px; }
+    #about-page-header h1 {
+      padding-top: 50px; }
 
   .about-img-2 {
     display: block;

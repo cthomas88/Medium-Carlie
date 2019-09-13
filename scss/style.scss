@@ -265,14 +265,17 @@ body {
     h4, h3 {
         font-family: 'Yeseva One', cursive;
         color: $primary;
+        font-size: 2rem;
     }
 
     p, form {
         font-family: 'Raleway', sans-serif;
+        font-size: 1.3rem;
     }
 
     a {
         color: black;
+        text-decoration: underline;
     }
 
     a:hover {
@@ -391,7 +394,7 @@ body {
     }
 
     #about-page-header {
-        min-height: 400px;
+        min-height: 300px;
     }
 
     #about {
@@ -403,7 +406,7 @@ body {
 
     #contact-page-header {
         h1 {
-            padding-top: 10px;
+            padding-top: 60px;
         }
     }
 } 
@@ -463,6 +466,8 @@ body {
         h1 { 
             padding-top: 50px;
         }
+
+        min-height: 300px;
     } 
 
     .about-img-2 {
@@ -485,6 +490,4 @@ body {
             text-align: center;
         }
     }
-
-
 }
