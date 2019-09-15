@@ -3,8 +3,8 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
 
-    $email_from = 'Medium Carlie';
-    $email_subject = 'You have a new newsletter sign up';
+    $email_from = "Medium Carlie";
+    $email_subject = "You have a new newsletter sign up";
     $email_body = "Name: $name.\n".
                     "Email Address: $email.\n";
     
